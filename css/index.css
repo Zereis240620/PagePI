@@ -171,8 +171,7 @@ footer a:hover {
 }
 
 section {
-  display: flex;
-  justify-content: center;  /* centralização horizontal */
+  display: flex;  
   align-items: center;  /* centralização vertical */
   flex-direction: column; /* itens filhos em coluna (na vertical) */
   background-color: transparent;
@@ -189,14 +188,13 @@ section > h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  padding: 8px;  
+  background-color: white;    
 }
 
 #img-serra{
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 80%;  
+  margin-top: 20px;
+  margin-bottom: 25px;
+  width: 100%;  
 }
 
 blockquote > p {
@@ -210,7 +208,7 @@ section > h1 { /* O sinal de > indica que serão atingidos apenas
   text-align: center;
   width: 100%;
   padding-bottom: 4px;
-  color: black;
+  color: var(--cor-texto-black);
   font-family: var(--fonte-titulo);
   font-style: italic;
   font-size: 2rem;
@@ -221,16 +219,15 @@ section > blockquote {
   padding-top: 5px;
 }
 
-
 section > h1 {
  padding-top: 5px; 
 }
 
 /* Regra para os títulos h1 que estão dentro dos articles do section */
 section > article > h1 {
-  text-align: right;
+  text-align: center;
   width: 100%;
-  color: var(--cor-texto);
+  color: var(--cor-texto-black);
   font-family: var(--fonte-titulo);
   font-size: 1.5rem;
 }
