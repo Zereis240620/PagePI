@@ -197,6 +197,12 @@ section > h2 {
   width: 100%;  
 }
 
+.img-style_pdrao{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 80%; 
+}
+
 blockquote > p {
   text-align:  justify;
 }
