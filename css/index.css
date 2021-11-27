@@ -28,6 +28,7 @@ html {
   font-size: 16px;
   scroll-behavior: smooth; /* Rolagem suave */
 }
+
 header {
   display: flex;
   justify-content: space-between;  /* espaço intermediário */
@@ -207,7 +208,6 @@ blockquote > p {
   text-align:  justify;
 }
 
-
 /* Regra para o título h1 que está dentro de section */
 section > h1 { /* O sinal de > indica que serão atingidos apenas
   os h1 FILHOS DIRETOS de section */
@@ -337,7 +337,7 @@ aside a:hover {
 /* Articles que estão dentro de aside */
 aside article {
   text-align: center;
-  margin: 50px 0;
+  margin: 10px 0;
   padding: 30px 20px;
   border: 3px groove var(--cor-texto);
   border-radius: 8px;
