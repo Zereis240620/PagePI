@@ -155,7 +155,7 @@ footer {
   display: flex;
   justify-content: space-around;  /* distribui o espaço entre os itens filhos */
   align-items: center;  /* centralização vertical */
-  background-color: var(--cor-fundo);
+  background-color: var(--cor-prim);
   min-height: 50px; /* altura mínima */
   padding: 20px;
   color: var(--cor-texto-black);
@@ -163,7 +163,7 @@ footer {
 
 /* Links dentro do footer */
 footer a {
-  color: var(--cor-prim);
+  color: var(--cor-texto);
   text-decoration: none; /* sem sublinhado */
 }
 
